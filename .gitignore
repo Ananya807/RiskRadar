@@ -1,0 +1,30 @@
+node_modules/
+dist/
+build/
+
+# Env files
+.env
+.env.*.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+
+# Editor directories
+.vscode/
+.idea/
+
+# Lockfiles (optional - keep if you want reproducible installs)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# Local dev artifacts
+.turbo/
+.next/
+coverage/
+node_modules
